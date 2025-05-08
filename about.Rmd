@@ -3,3 +3,11 @@ title: "About This Website"
 ---
 
 It's great
+
+If Mac won't let you push from within Rstudio
+Go into Mac terminal and enter:
+git credential-osxkeychain erase
+
+and this should erase any set passwords and now the push should ask you for username and PAT.
+
+Also see https://medium.com/@haroldfinch01/how-do-i-update-the-password-for-git-d1f2d66af48e for tips on other OSes
